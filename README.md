@@ -1,7 +1,8 @@
 # kotlin音影
 使用kotlin实现的手机音影，主要为了熟练一下kotlin语法，以及一些书写习惯。下面是一些自己在项目中使用到的知识点，这些知识点在大多数项目中都能用到
 
-# ![image](https://github.com/Mao-x-w/KotlinPlayer/blob/HEAD/introduce/1.gif)
+# ![image](https://github.com/Mao-x-w/KotlinPlayer/blob/HEAD/introduce/1.gif) ![image](https://github.com/Mao-x-w/KotlinPlayer/blob/HEAD/introduce/2.gif)
+# ![image](https://github.com/Mao-x-w/KotlinPlayer/blob/HEAD/introduce/3.gif) ![image](https://github.com/Mao-x-w/KotlinPlayer/blob/HEAD/introduce/4.gif)
 
 ## reified关键字
 reified的意思是具体化，就是具体化一个东西。使用：
