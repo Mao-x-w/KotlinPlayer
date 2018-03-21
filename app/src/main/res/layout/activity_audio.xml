@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/audioBg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        />
+
+    <RelativeLayout
+        android:id="@+id/topLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/back"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:id="@+id/displayName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="爱你一万年"
+            android:textColor="@android:color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            />
+
+        <TextView
+            android:id="@+id/artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="爱你一万年"
+            android:textColor="@android:color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/displayName"
+            android:layout_marginTop="5dp"
+            android:textSize="12sp"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/seekBar"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="00:10/10:11"
+        android:textColor="@android:color/white"
+        />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottomLayout"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/bottomLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/mode"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/mode_all"
+            />
+
+        <ImageView
+            android:id="@+id/before"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/before"
+            android:layout_marginLeft="30dp"
+            />
+
+        <ImageView
+            android:id="@+id/start"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/start"
+            android:layout_marginLeft="15dp"
+            />
+
+
+        <ImageView
+            android:id="@+id/next"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/next"
+            android:layout_marginLeft="15dp"
+            />
+
+        <ImageView
+            android:id="@+id/audioList"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/audio_list"
+            android:layout_marginLeft="30dp"
+            />
+
+    </LinearLayout>
+
+    <com.example.laomao.kotlinplayer.widget.LyricView
+        android:id="@+id/lyricView"
+        android:layout_above="@+id/tvProgress"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:layout_marginBottom="10dp"
+        />
+
+</RelativeLayout>

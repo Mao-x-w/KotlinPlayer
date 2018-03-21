@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">KotlinPlayer</string>
+
+    <string name="key_clear_cache">clear_cache</string>
+    <string name="key_push">push</string>
+    <string name="key_wifi">wifi</string>
+    <string name="key_about">about</string>
+</resources>
